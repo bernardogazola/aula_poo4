@@ -118,7 +118,6 @@ public class Main {
             System.out.println("Você ainda não criou uma playlist.");
             return;
         }
-        System.out.println("Suas Playlists:");
         usuario.listarPlaylists();
         System.out.print("Selecione a playlist para adicionar uma música: ");
         int escolhaPlaylist = scanner.nextInt();
@@ -148,7 +147,6 @@ public class Main {
             System.out.println("Você ainda não criou uma playlist.");
             return;
         }
-        System.out.println("Suas Playlists:");
         usuario.listarPlaylists();
         System.out.print("Selecione uma playlist para listar as músicas: ");
         int escolhaPlaylistListar = scanner.nextInt();
@@ -178,7 +176,6 @@ public class Main {
             System.out.println("Você ainda não criou uma playlist.");
             return;
         }
-        System.out.println("Suas Playlists:");
         usuario.listarPlaylists();
         System.out.print("Selecione uma playlist para remover uma música: ");
         int escolhaPlaylistRemover = scanner.nextInt();
